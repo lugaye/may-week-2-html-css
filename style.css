@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../basic/build.jpg');
+}
+
+#main_p{
+    color:red;
+}
+
+.first_section{
+    background-color: gainsboro;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 30px;
+}
+
+.first_section p {
+    font-size: 20px;
+}
+
+.first_section h3{
+
+}
