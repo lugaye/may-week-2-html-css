@@ -1,11 +1,21 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Semantic HTML Example</title>
+            <title></title>
+            <!-- internal css -->
+            <style>
+                p {
+                    font-size: 15px;
+                    color: darkgoldenrod;
+                }
+            </style>
+            <!-- external stylesheet -->
+            <link rel="stylesheet" href="style.css">
         </head>
         <body>
             <header>
-                <h1>My Website</h1>
+                <!-- in-line styling -->
+                <h1 style="color:blue; font-size: 20px;">My Website.</h1>
                 <nav>
                     <ul>
                         <li><a href="">Home</a></li>
@@ -15,32 +25,29 @@
                 </nav>
             </header>
             <main>
-                <h2>Understanding Semantic HTML</h2>
-                <p>Semantic html elements provide meaning to the content they enclose.</p>
-                <section>
-                    <h3>Benefits</h3>
-                    <p>Improves readability of your code.</p>
-                </section>
-                <section>
-                    <h3>Examples</h3>
+                <h2>Main Content</h2>
+                <p id="main_p">This is the main content of the page.</p>
+                <section class="first_section">
+                    <h3>Benefits of Semantic Elements</h3>
+                    <p>They improve code readability and enhance accessibility.</p>
                     <ul>
-                        <li>&lt;header&gt;</li>
-                        <li>&lt;nav&gt;</li>
-                        <li>&lt;main&gt;</li>
-                        <li>&lt;section&gt;</li>
-                        <li>&lt;aside&gt;</li>
-                        <li>&lt;footer&gt;</li>
+                        <li>benefit 1</li>
+                        <li>benefit 2</li>
+                        <li>benefit 3</li>
                     </ul>
                 </section>
+                <figure>
+                    <img src="../basic/build.jpg" width="300" height="200">
+                </figure>
                 <aside>
-                    <h3>Related Links</h3>
+                    <h3>Related links</h3>
                     <ul>
                         <li><a href="">Understanding HTML</a></li>
                     </ul>
                 </aside>
             </main>
             <footer>
-                <p>&copy;My Website. All rights reserved.</p>
-            </footer>
+                <p>&copy; 2024. My Website. All rights reserved.</p>
+            </footer>            
         </body>
     </html>
